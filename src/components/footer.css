@@ -1,0 +1,79 @@
+.footer {
+   height:40vh;
+    background-color: #090504;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 8%;
+    box-sizing: border-box;
+}
+
+.innerfooter {
+    width: 23%;
+}
+
+.innerfooter h1 {
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+.innerfooter h2 {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.innerfooter p {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 1.9;
+    margin: 0;
+}
+.social-icons {
+    display: flex;
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.social-icons i {
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #f5c542;
+    transform: translateY(-3px);
+}
+
+
+
+.innerfooter input {
+    width: 100%;
+    padding: 13px 15px;
+    margin-top: 20px;
+    border: 1px solid #555;
+    background: transparent;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.innerfooter input::placeholder {
+    color: #aaa;
+}
+
+.innerfooter button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #f5c542;
+    color: #090504;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.innerfooter button:hover {
+    background-color: white;
+}

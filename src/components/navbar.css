@@ -1,0 +1,33 @@
+.nav{
+    height:10vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.nav h1{
+    font-size:30px;
+    padding-left: 40px;
+}
+.nav ul{
+    list-style: none;
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav li{
+    font-size: 18px;
+}
+.icons{
+    width:15%;
+   
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
